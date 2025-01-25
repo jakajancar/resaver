@@ -2,7 +2,7 @@
     "name": "resaver",
     "displayName": "Resaver",
     "description": "Bulk re-save files in workspace to apply on-save actions.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "jakajancar",
     "repository": "https://github.com/jakajancar/resaver",
     "icon": "icon_128.png",
@@ -25,7 +25,10 @@
             "title": "Resaver",
             "properties": {
                 "resaver.listFilesCommand": {
-                    "type": ["string", "null"],
+                    "type": [
+                        "string",
+                        "null"
+                    ],
                     "default": null,
                     "markdownDescription": "This command will be run in the workspace folder to list files to re-save. The command should output a list of file paths separated by newlines. A good option if you are using git is `git ls-files`."
                 }
