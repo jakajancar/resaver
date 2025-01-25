@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "publisher": "jakajancar",
     "repository": "https://github.com/jakajancar/resaver",
+    "icon": "icon_128.png",
     "engines": {
         "vscode": "^1.74.0"
     },
